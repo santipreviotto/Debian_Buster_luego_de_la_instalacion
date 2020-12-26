@@ -8,6 +8,33 @@ Dentro de Software & Updates tildar las casillas como lo describe la ilustració
 
 ![software&updates](/C1.png)
 
+### Cambiar a los repositorios correctos
+
+Dentro de un terminal:
+
+`sudo nano /etc/apt/sources.list`
+
+Comentar todas las líneas con el caracter # al principio de cada una y copiar la nueva lista de repositorios extraídos desde la página web Sources List Generator:
+
+```
+deb http://deb.debian.org/debian/ stable main contrib non-free
+
+deb http://deb.debian.org/debian/ stable-updates main contrib non-free
+
+deb http://deb.debian.org/debian-security stable/updates main
+
+deb http://ftp.debian.org/debian buster-backports main
+``` 
+Luego dentro de la terminal actualizar el sistema:
+
+`apt update`
+
+### Cambiar la sesión a Xorg
+
+Al iniciar sesión se puede cambiar mediante el símbolo de configuracion y seleccionar "System X11 Default".
+
+![xorg](/C2.jpeg)
+
 ### Instalar synaptic y intel-microcode
 
 Dentro de una terminal:
