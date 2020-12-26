@@ -1,4 +1,4 @@
-# Debian Buster: instalación de paquetes
+# Debian Buster: Pasos a seguir luego de la instalación
 
 ![debian](/debian-logo-1024x576.png)
 
