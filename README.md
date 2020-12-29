@@ -50,7 +50,7 @@ Reiniciar.
 Dentro de una terminal:
 
 ```
-apt install beignet && apt install gnome-shell-extension-appindicator && apt install build-essential dkms linux-headers-$(uname -r) && apt install ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi && apt install freecad && apt install gimp && apt install octave && apt install inkscape && apt install mpv && apt install telegram-desktop
+apt install beignet && apt install gnome-shell-extension-appindicator && apt install neofetch && apt install build-essential dkms linux-headers-$(uname -r) && apt install ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi && apt install freecad && apt install gimp && apt install octave && apt install inkscape && apt install mpv && apt install telegram-desktop
 ```
 
 ### Instalar paquetes deb como megasync y VNCViewer 
