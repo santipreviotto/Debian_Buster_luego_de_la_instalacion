@@ -50,7 +50,7 @@ Reiniciar.
 Dentro de una terminal:
 
 ```
-apt install beignet && apt install gnome-shell-extension-appindicator && apt install build-essential dkms linux-headers-$(uname -r) && apt install ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi && apt install freecad && apt install gimp && apt install octave && apt install inkscape && apt install kicad && apt install telegram-desktop
+apt install beignet && apt install gnome-shell-extension-appindicator && apt install build-essential dkms linux-headers-$(uname -r) && apt install ttf-mscorefonts-installer rar unrar libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi && apt install freecad && apt install gimp && apt install octave && apt install inkscape && apt install mpv && apt install telegram-desktop
 ```
 
 ### Instalar paquetes deb como megasync y VNCViewer 
@@ -59,7 +59,7 @@ Entrar a la web de cada uno y descargar el archivo .deb. Luego dentro de una ter
 
 `apt install /home/sp/Descargas/nombredelarchivodescargado.deb`
  
-### Instalar flatpak, discord, okular, spotify y zoom
+### Instalar flatpak
 
 Dentro de una terminal:
 
@@ -70,3 +70,16 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ```
 
 Reiniciar.
+
+
+### Instalar discord, kicad, okular, spotify y zoom
+
+`flatpak install flathub com.discordapp.Discord`
+
+`flatpak install flathub org.kicad_pcb.KiCad`
+
+`flatpak install flathub org.kde.okular`
+
+`flatpak install flathub com.spotify.Client`
+
+`flatpak install flathub us.zoom.Zoom`
